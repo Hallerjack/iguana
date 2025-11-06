@@ -1,0 +1,187 @@
+/* 1. Ajustes generales */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    background-color: #000;
+    color: #fff;
+}
+
+h1 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 3.1em;
+    font-style: normal;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-size: 2.5em;
+    font-style: normal;
+    text-transform: uppercase; 
+}
+
+h4 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.5em;
+    font-style: normal;
+}
+
+h5 {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-size: 1.25em;
+    font-style: normal;
+}
+
+p {
+    font-family: "Raleway", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+    font-size: 1em;
+}
+
+/* 2. Ajustes por sección */
+
+/* --- 2.1. Header */
+
+header {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    min-height: 4.6rem;
+}
+
+/* --- 2.2. Banner */
+
+.banner {
+    display: flex;
+    height: 45.43rem;
+    background-image: url(../img/bg-header.jpg);
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/* --- 2.3. Descripción */
+
+.description {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    gap: 6.9em;
+    min-height: 21.75rem;
+    padding: 2em;
+}
+
+.text-description {
+    width: 45%;
+}
+
+.description p {
+    line-height: 1.5em;
+    margin-top: 1.5em;
+}
+
+.image-description {
+    max-width: 399px;
+}
+
+/* --- 2.4. Características */
+
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    min-height: 21.75rem;
+    padding: 3em 1em;
+    background-color: #1e1a13;
+}
+
+.features h2 {
+    text-align: center;
+}
+
+.boxes {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: top;
+    gap: 9em;
+    margin-top: 3.1em;
+}
+
+.box {
+    max-width: 30%;
+    text-align: center;
+}
+
+.box i {
+    margin-bottom: 0.5em;
+}
+
+/* --- 2.5. Galería */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    min-height: 21.75rem;
+    gap: 1em;
+    padding: 3em 1em;
+}
+
+.img-box {  
+    width: 25%;
+}
+
+.img-box img {
+    display: block;
+    width: 100%;
+    height: 202px;
+    object-fit: cover;
+}
+
+/* --- 2.6. Footer */
+
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    min-height: 6.37rem;
+    padding: 3em 1em;
+    background-color: #1e1a13;
+}
+
+footer h5 {
+    text-align: center;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
