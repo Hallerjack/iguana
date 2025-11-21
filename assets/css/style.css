@@ -138,6 +138,14 @@ header {
 
 .box i {
     margin-bottom: 0.5em;
+    transition: transform 0.3s ease, color 0.3s ease;
+    color: #fff;
+    cursor: pointer;
+}
+
+.box i:hover {
+    transform: scale(1.2);
+    color: #6bdc5a; /* un hover verde suave tipo iguana */
 }
 
 /* --- 2.5. Galería */
